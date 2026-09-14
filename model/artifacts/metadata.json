@@ -1,0 +1,125 @@
+{
+  "streams": [
+    "Arts",
+    "Commerce",
+    "Science",
+    "Vocational"
+  ],
+  "boards": [
+    "CBSE",
+    "ICSE",
+    "State"
+  ],
+  "exams": [
+    "CA-Foundation",
+    "CLAT",
+    "CUET",
+    "ITI-Entrance",
+    "JEE",
+    "NEET",
+    "None"
+  ],
+  "domains": [
+    "Agriculture & Environment",
+    "Business",
+    "Design & Creative",
+    "Education",
+    "Engineering",
+    "Healthcare",
+    "Law & Governance",
+    "Media & Communication",
+    "Science & Research",
+    "Social Impact",
+    "Sports & Fitness",
+    "Technology",
+    "Trades & Hands-on"
+  ],
+  "subjects_by_stream": {
+    "Commerce": [
+      "Accountancy",
+      "Economics",
+      "Business Studies"
+    ],
+    "Science": [
+      "Physics",
+      "Chemistry",
+      "Mathematics"
+    ],
+    "Arts": [
+      "History",
+      "Political Science",
+      "Geography"
+    ],
+    "Vocational": [
+      "Trade Theory",
+      "Trade Practical",
+      "Workshop Science"
+    ]
+  },
+  "numeric_cols": [
+    "tenth_percentage",
+    "twelfth_percentage",
+    "marks_avg",
+    "subject_avg",
+    "soft_leadership",
+    "soft_creativity",
+    "soft_communication",
+    "soft_teamwork",
+    "soft_analytical",
+    "solo_team_pref",
+    "structure_pref",
+    "field_desk_pref",
+    "risk_tolerance",
+    "riasec_R",
+    "riasec_I",
+    "riasec_A",
+    "riasec_S",
+    "riasec_E",
+    "riasec_C"
+  ],
+  "categorical_cols": [
+    "stream",
+    "board",
+    "competitive_exam"
+  ],
+  "domain_cols": [
+    "domain_Agriculture_Environment",
+    "domain_Business",
+    "domain_Design_Creative",
+    "domain_Education",
+    "domain_Engineering",
+    "domain_Healthcare",
+    "domain_Law_Governance",
+    "domain_Media_Communication",
+    "domain_Science_Research",
+    "domain_Social_Impact",
+    "domain_Sports_Fitness",
+    "domain_Technology",
+    "domain_Trades_Hands-on"
+  ],
+  "soft_cols": [
+    "soft_leadership",
+    "soft_creativity",
+    "soft_communication",
+    "soft_teamwork",
+    "soft_analytical"
+  ],
+  "pref_cols": [
+    "solo_team_pref",
+    "structure_pref",
+    "field_desk_pref",
+    "risk_tolerance"
+  ],
+  "riasec_cols": [
+    "riasec_R",
+    "riasec_I",
+    "riasec_A",
+    "riasec_S",
+    "riasec_E",
+    "riasec_C"
+  ],
+  "test_accuracy_top1": 0.23030667468430546,
+  "test_accuracy_top3": 0.488474644217278,
+  "test_accuracy_top5": 0.6333934656243736,
+  "n_classes": 125
+}
