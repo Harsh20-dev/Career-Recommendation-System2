@@ -31,7 +31,7 @@ ART_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 
 # ---- load once at import time (do this once per server process, not per-request) ----
 _model = xgb.XGBClassifier()
-_model.load_model(os.path.join(ART_DIR, "career_xgb_model.json"))
+_model.load_model(os.path.join(ART_DIR, "career_xgb_model_small.ubj"))
 _le = joblib.load(os.path.join(ART_DIR, "label_encoder.pkl"))
 _feature_columns = joblib.load(os.path.join(ART_DIR, "feature_columns.pkl"))
 _domain_riasec_map = joblib.load(os.path.join(ART_DIR, "domain_riasec_map.pkl"))
